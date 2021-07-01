@@ -1,0 +1,30 @@
+.showcase {
+    padding: 16px;
+    border-radius: 8px;
+    // box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.showcase:hover {
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.showcase::after {
+    background-color: #ef303b;
+    border-radius: 50px;
+    content: "";
+    display: block;
+    height: 2px;
+    margin-top: 15px;
+    width: 10%;
+    position: relative;
+    left: calc(50% - 10px);
+}
+
+.showcase-card{
+    max-width: 512px;
+}
+
+img {
+    height: 240px;
+    width: 100%;
+}
