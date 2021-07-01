@@ -14,3 +14,12 @@ img:hover {
 main {
     margin: 16px;
 }
+
+.showcase-wrapper{
+    display: flex;
+}
+
+.showcase-wrapper > * {
+    flex: 1;
+    align-items: stretch;
+}
