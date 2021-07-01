@@ -2,7 +2,7 @@
 
 ## Build and Host
 
-ng build
+ng build |
 firebase deploy
 
 ## Firebase Host URL
