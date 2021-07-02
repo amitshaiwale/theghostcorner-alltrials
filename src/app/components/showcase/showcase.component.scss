@@ -9,7 +9,7 @@
 }
 
 .showcase::after {
-    background-color: #ef303b;
+    background-color: #3740ff;
     border-radius: 50px;
     content: "";
     display: block;
@@ -24,7 +24,16 @@
     max-width: 512px;
 }
 
+.showcase__desc {
+    font-family: QuicksandLight;
+}
+
 img {
     height: 240px;
     width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+figcaption {
+    font-style: italic;
 }

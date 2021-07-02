@@ -5,6 +5,8 @@
 
 img {
     width: 50%;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #3740ff;
 }
 
 img:hover {
@@ -12,14 +14,10 @@ img:hover {
 }
 
 main {
-    margin: 16px;
+    margin-top: 50px;
 }
 
 .showcase-wrapper{
     display: flex;
-}
-
-.showcase-wrapper > * {
-    flex: 1;
-    align-items: stretch;
+    justify-content: center;
 }

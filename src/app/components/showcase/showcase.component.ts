@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-showcase',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./showcase.component.scss']
 })
 export class ShowcaseComponent implements OnInit {
+
+  @Input() imgrSrc = '';
 
   constructor() { }
 

@@ -4,8 +4,18 @@
     src: url('./assets/fonts/WorkSans-Medium.ttf');
 }
 
+@font-face {
+    font-family: WorkSansRegular;
+    src: url('./assets/fonts/WorkSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: QuicksandLight;
+    src: url('./assets/fonts/Quicksand-Light.ttf');
+}
+
 html {
-    font-family: WorkSansMedium;
+    font-family: WorkSansRegular;
 }
 
 body {
